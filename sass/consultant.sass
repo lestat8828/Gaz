@@ -132,22 +132,27 @@ img
 		&_third
 			display: none	
 .right_sidebar
+	&_workers
+		padding-bottom: 35px
 	&_photo
 		img
-			width: 30%		
+			width: 115px	
+			height: 115px	
 			padding-left: 15px	
-			border: 1px solid rgba($dark, 0.9)
+			border: 3px solid rgba($active-color, 0.4)
 			border-radius: 50%
 			text-align: center
 			padding: 0px
 			float: left
 			margin-right: 15px
 			margin-bottom: 15px
-	a 
-		text-decoration: none
-		color: $dark
-	a:hover
-		color: $active-color
+	&_content
+		padding-top: 7px			
+		a 
+			text-decoration: none
+			color: $dark
+		a:hover
+			color: $active-color
 .content
 	margin-top: 40px
 	h2
@@ -189,8 +194,10 @@ img
 			font-weight: bold
 			margin: 6px 20px
 			font-size: 25px
-
-
+.map
+	iframe
+		width: 100%
+		height: 300px
 .footer
 	background-color: $dark
 	color: $footer-text
