@@ -1,0 +1,80 @@
+@media (max-width:1199px)
+	.top_nav
+		&_menu
+			li
+				margin-right: 20px
+				a
+					font-size: 14px
+	.directions
+		&_block
+
+			padding: 20px
+@media (max-width:767px)
+	body
+		font-size: 12px
+	.top_nav
+		&_btn
+			display: block
+		&_menu
+			flex-direction: column
+			display: none
+			li
+				line-height: 2
+				a
+					&::after
+						display: none
+			&__active
+				display: flex
+				
+	.left_sidebar
+		&_btn
+			display: block
+		&_menu
+			display: none
+			&__active
+				display: block
+		&_object
+			display: none
+
+@media (min-width:767px) and(max-width:991px)
+	body
+		font-size: 14px
+	.top_nav
+		&_btn
+			display: block
+			
+		&_menu
+			display: none
+			
+			&__active
+				display: flex
+				margin-bottom: 0px
+				justify-content: space-between
+				li
+					margin-right: 25px											
+	.left_sidebar
+		&_btn
+			display: block
+		&_menu
+			display: none
+			&__active
+				display: block
+		&_object
+			display: none
+@media (max-width:668px)	
+	.footer
+		&_menu
+			text-align: center
+			padding-left: 0px
+		&-contacts
+			text-align: center
+		&-social-links
+			text-align: center
+			ul
+				padding-left: 0px
+
+		&_copy
+			text-align: center
+
+
+
