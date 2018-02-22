@@ -166,16 +166,22 @@ img {
 .left_sidebar_object {
   margin-top: 30px;
   background-color: #fff;
+  padding-bottom: 20px;
 }
 .left_sidebar_object img {
   width: 350px;
   border-bottom: 2px solid #666666;
 }
-.left_sidebar_object_description {
-  padding: 30px;
-}
 .left_sidebar_object h3 {
   text-transform: uppercase;
+  padding: 0px 30px;
+}
+.left_sidebar_object p {
+  padding: 0px 30px;
+}
+.left_sidebar_object a {
+  padding: 0px 30px;
+  margin-bottom: 30px;
 }
 
 .right_sidebar_photo img {
