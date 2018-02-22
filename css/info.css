@@ -169,6 +169,7 @@ img {
 }
 .left_sidebar_object img {
   width: 350px;
+  border-bottom: 2px solid #666666;
 }
 .left_sidebar_object_description {
   padding: 30px;
