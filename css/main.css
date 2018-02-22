@@ -205,7 +205,7 @@ img {
 .directions_block ul {
   text-align: left;
   color: #fff;
-  padding: 10px 30px;
+  padding: 0px 30px;
 }
 .directions_block ul li {
   line-height: 20px;
@@ -265,6 +265,9 @@ img {
 }
 .footer_copy {
   text-align: right;
+}
+.footer_copy h4 {
+  font-sixe: 15px;
 }
 .footer_menu li {
   margin-bottom: 14px;
