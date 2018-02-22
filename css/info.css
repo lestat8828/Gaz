@@ -161,6 +161,7 @@ img {
   font-size: 16px;
   display: block;
   padding: 15px 29px;
+  font-weight: bold;
 }
 .left_sidebar_object {
   margin-top: 30px;
@@ -181,6 +182,7 @@ img {
   height: 250px;
   float: right;
   padding-left: 15px;
+  margin-bottom: 15px;
 }
 
 .content {
@@ -196,7 +198,7 @@ img {
 }
 .directions_block {
   background-color: #fff;
-  height: 220px;
+  height: 250px;
   text-align: center;
   margin: 0px 15px;
   padding: 30px;
@@ -235,15 +237,20 @@ img {
 }
 .directions_block h3 {
   font-weight: bold;
-  margin: 6px 20px;
+  margin: 6px 10px;
   font-size: 25px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 300px;
 }
 
 .footer {
   background-color: #191919;
   color: #666666;
   padding: 59px 0;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 .footer p {
   margin-bottom: 14px;
