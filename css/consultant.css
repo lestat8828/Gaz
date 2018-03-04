@@ -80,11 +80,11 @@ img {
 }
 .top_nav_menu li {
   border-right: 1px solid #c7c8ca;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .top_nav_menu li:hover > .top_nav_menu_down {
   display: block;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 .top_nav_menu li:first-child {
   border-left: 1px solid #babbbb;
@@ -107,9 +107,8 @@ img {
 }
 .top_nav_menu li a:hover {
   background-color: #099adf;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
   color: #fff;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .top_nav_menu_down {
@@ -509,12 +508,24 @@ img {
     border-right: none;
     border-bottom: none;
   }
+  .top_nav_menu_down li {
+    border-top: 1px solid #babbbb;
+    border-left: 1px solid #babbbb;
+    border-right: 1px solid #babbbb;
+  }
   .top_nav_menu_down li:first-child {
-    border-left: none;
+    border-left: 1px solid #babbbb;
+  }
+  .top_nav_menu_down li:last-child {
+    border-right: 1px solid #babbbb;
+    border-bottom: 1px solid #babbbb;
+  }
+  .top_nav_menu_down i {
+    padding-top: 7px;
   }
   .top_nav_menu_down_right {
-    top: 76px;
-    right: -258px;
+    top: 78px;
+    right: -256px;
   }
 
   .directions_block ul {
