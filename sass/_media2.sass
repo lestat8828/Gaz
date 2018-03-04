@@ -2,9 +2,13 @@
 	.top_nav
 		&_menu
 			li
-				margin-right: 20px
 				a
 					font-size: 14px
+			&_down
+				&_right 
+					top: 56px
+					right: -256px
+					min-width: 257px
 	.directions
 		&_block
 
@@ -49,9 +53,7 @@
 			&__active
 				display: flex
 				margin-bottom: 0px
-				justify-content: space-between
-				li
-					margin-right: 25px											
+				justify-content: center					
 	.left_sidebar
 		&_btn
 			display: block
@@ -61,7 +63,37 @@
 				display: block
 		&_object
 			display: none
-@media (max-width:668px)	
+@media (max-width:668px)
+	.top_nav
+		&_menu
+			li
+				border: none
+				&:first-child
+					border-left: none
+				&:last-child
+					border-right: none
+					border-bottom: none
+			&_down
+				li
+					&:first-child
+						border-left: none
+					&:last-child
+				&_right 
+					top: 76px
+					right: -258px
+	.directions
+		&_block
+			ul
+				font-size: 18px
+				li
+					line-height: 23px
+			p 
+				font-size: 18px
+
+			h3
+				font-weight: bold
+				margin: 6px 10px
+				font-size: 25px						
 	.footer
 		&_menu
 			text-align: center
@@ -75,6 +107,50 @@
 
 		&_copy
 			text-align: center
+	.right_sidebar
+		&_photo
+			img
+				display: none		
+@media (max-width:375px)
+	.top_nav
+		&_btn
+			display: block
+		&_menu
+			flex-direction: column
+			display: none
+			li
+				line-height: 2
+				a
+					&::after
+						display: none
+			&__active
+				display: flex
+			&_down
+				&_right 
+					top: 117px
+					right: 0px
+	.left_sidebar
+		&_btn
+			display: block
+		&_menu
+			display: none
+			&__active
+				display: block
+		&_object
+			display: none	
+	.directions
+		&_block
+			ul
+				font-size: 14px
+				li
+					line-height: 20px
+			p 
+				font-size: 14px
+
+			h3
+				font-weight: bold
+				margin: 6px 10px
+				font-size: 18px					
 
 
 
