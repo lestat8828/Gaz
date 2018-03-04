@@ -59,10 +59,10 @@ img
 		font-weight: bold
 		margin: 0px	
 		li
+			border-right: 1px solid #c7c8ca
+			transition: all 0.3s ease	
 			&:hover > .top_nav_menu_down
 				display: block
-				transition: all 0.3s ease
-			border-right: 1px solid #c7c8ca
 			&:first-child
 				border-left: 1px solid #babbbb
 			&:last-child
@@ -80,8 +80,7 @@ img
 				transition: all 0.3s ease
 
 				&:hover
-					background-color: $active-color
-					transition: all 0.3s ease	
+					background-color: $active-color	
 					color: $white
 					transition: all 0.3s ease				
 		&_down
