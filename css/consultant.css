@@ -55,6 +55,19 @@ img {
   padding: 0px 15px 0px 15px;
   margin-bottom: 0px;
 }
+.top_nav_logo a {
+  text-decoration: none;
+  font-family: "Corinthia", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  color: #d0021b;
+  text-shadow: 1px 1px 2px black, 0 0 1em #d0021b;
+  letter-spacing: 3px;
+}
+.top_nav_logo a p {
+  padding: 0px;
+  margin: 0px;
+}
 .top_nav_btn {
   display: none;
   width: 30px;
@@ -415,6 +428,9 @@ img {
 }
 
 @media (max-width: 1199px) {
+  .top_nav_logo a {
+    font-size: 29px;
+  }
   .top_nav_menu li a {
     font-size: 14px;
   }
@@ -435,6 +451,7 @@ img {
 
   .top_nav_btn {
     display: block;
+    padding: 15px;
   }
   .top_nav_menu {
     -webkit-box-orient: vertical;
@@ -475,6 +492,8 @@ img {
 
   .top_nav_btn {
     display: block;
+    padding: 15px;
+    outline: none;
   }
   .top_nav_menu {
     display: none;
@@ -503,6 +522,14 @@ img {
   }
 }
 @media (max-width: 668px) {
+  .top_nav_logo a {
+    font-size: 35px;
+  }
+  .top_nav_btn {
+    display: block;
+    padding: 15px;
+    outline: none;
+  }
   .top_nav_menu li {
     border: none;
   }
@@ -571,10 +598,12 @@ img {
 }
 @media (max-width: 375px) {
   .top_nav_logo a {
-    font-size: 40px;
+    font-size: 30px;
   }
   .top_nav_btn {
     display: block;
+    padding: 15px;
+    outline: none;
   }
   .top_nav_menu {
     -webkit-box-orient: vertical;
