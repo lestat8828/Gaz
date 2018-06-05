@@ -241,6 +241,7 @@ img {
 }
 .left_sidebar_object img {
   width: 350px;
+  height: 268px;
   border-bottom: 2px solid #666666;
 }
 .left_sidebar_object h3 {
@@ -249,6 +250,10 @@ img {
 }
 .left_sidebar_object p {
   padding: 0px 30px;
+  color: #d0021b;
+}
+.left_sidebar_object p del {
+  color: #666666;
 }
 .left_sidebar_object a {
   padding: 0px 30px;
@@ -549,6 +554,9 @@ img {
   }
 }
 @media (max-width: 375px) {
+  .top_nav_logo a {
+    font-size: 40px;
+  }
   .top_nav_btn {
     display: block;
   }
