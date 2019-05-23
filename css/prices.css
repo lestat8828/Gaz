@@ -29,7 +29,9 @@ h2 {
 img {
   max-width: 100%;
 }
-
+th.color {
+  color: #d0021b;
+}
 .btn {
   padding: 20px 30px;
   display: inline-block;
